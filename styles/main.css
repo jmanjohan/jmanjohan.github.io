@@ -1,0 +1,7 @@
+.individualPage {
+    border: solid 2px black;
+    border-radius:20px;
+    filter: drow-shadow(5px 5px 2px black);
+    width: 100px;
+    height: 250px;
+}
