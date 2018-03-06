@@ -1,7 +1,8 @@
 .homeIndividualPage {
     border: solid 2px black;
     border-radius:20px;
-    filter: drow-shadow(5px 5px 2px black);
-    width: 100px;
-    height: 250px;
+    box-shadow:20px 20px 5px darkgrey;
+    width: 200px;
+    height: 500px;
+    display: inline-block;
 }
