@@ -1,8 +1,43 @@
-.homeIndividualPage {
+* {
+    box-sizing:border-box;
+}
+body {
+    background-color:lightgrey;
+    font-family: 'Arvo', serif;
+}
+#homeRunner {
+    text-align:center;
+}
+#homeRunner h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+#homeProfileMenu {
+    text-align:center;
+}
+.homeProfile {
+    background-color:white;
+    margin:10px;
     border: solid 2px black;
     border-radius:20px;
-    box-shadow:20px 20px 5px darkgrey;
-    width: 200px;
-    height: 500px;
+    box-shadow:10px 10px 5px darkgrey;
+    width: 220px;
+    height: 300px;
     display: inline-block;
+    padding: 10px 0 0 0;
+}
+.homeProfile h2 {
+    font-size:2em;
+    font-weight:bold;
+}
+.homeProfilePicture {
+    height:200px;
+    width:200px;
+    border-radius:20px;
+    border: solid 2px black;
+}
+.homeProfileText {
+    display:inline;
+    width:200px;
+    height:50px;
 }
