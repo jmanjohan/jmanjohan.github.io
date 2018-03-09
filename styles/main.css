@@ -2,11 +2,14 @@
     box-sizing:border-box;
 }
 body {
-    background-color:navajowhite;
+    color:white;
+    background-image: url(../images/hixs_pattern_evolution.png);
     font-family: 'Arvo', serif;
 }
 #homeRunner {
     text-align:center;
+    background-color:midnightblue;
+    border: solid 2px black;
 }
 #homeRunner h1 {
     font-size: 3em;
@@ -19,11 +22,11 @@ body {
     text-align:center;
 }
 .homeProfile {
-    background-color: floralwhite;
+    background-color: midnightblue;
     margin:10px;
     border: solid 2px black;
     border-radius:20px;
-    box-shadow:10px 10px 5px peru;
+    box-shadow:10px 10px 10px black;
     width: 204px;
     height: 275px;
     display: inline-block;
