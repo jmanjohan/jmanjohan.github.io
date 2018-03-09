@@ -20,6 +20,9 @@ body {
 .withBorderRound {
     border-radius:20px;
 }
+.withBorderRoundThinChild {
+    border-radius:18px;
+}
 .withBoxShadow {
     box-shadow:0 0 20px black;
 }
@@ -60,7 +63,6 @@ body {
 .homeProfilePicture {
     height:200px;
     width:200px;
-    border-radius:20px;
 }
 .homeProfileText {
     display:inline;
