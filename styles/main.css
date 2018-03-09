@@ -8,8 +8,7 @@ body {
 }
 #homeRunner {
     text-align:center;
-    background-color:midnightblue;
-    border: solid 2px black;
+    background-color:slateblue;
 }
 #homeRunner h1 {
     font-size: 3em;
@@ -18,15 +17,25 @@ body {
 .homeRunnerBlock {
     display:inline-block;
 }
+.withBorderRound {
+    border-radius:20px;
+}
+.withBoxShadow {
+    box-shadow:10px 10px 10px black;
+}
+.withThickBorder {
+    border:solid 5px black;
+}
+.withThinBorder {
+    border: solid 2px black;
+}
 #homeProfileMenu {
     text-align:center;
 }
 .homeProfile {
-    background-color: midnightblue;
+    color:white;
+    background-color: slateblue;
     margin:10px;
-    border: solid 2px black;
-    border-radius:20px;
-    box-shadow:10px 10px 10px black;
     width: 204px;
     height: 275px;
     display: inline-block;
@@ -35,6 +44,10 @@ body {
     font-size:2em;
     font-weight:bold;
 }
+.homeProfile:hover {
+    cursor:pointer;
+    color:mediumspringgreen;
+}
 .homeProfilePicture {
     height:200px;
     width:200px;
@@ -42,6 +55,28 @@ body {
 }
 .homeProfileText {
     display:inline;
-    width:200px;
-    height:50px;
+}
+#homeNewsFeed {
+    background-image: url(../images/px_by_Gre3g.png);
+    width:85%;
+    margin:0 auto;
+    padding:10px;
+}
+#homeNewsFeed h1 {
+    background-color:slateblue;
+    text-align:center;
+    font-size:2em;
+}
+.blogPost {
+    padding: 10px;
+}
+.postHeaderTitle {
+    font-size: 1.5em;
+}
+.postHeaderSub {
+    display:inline-block;
+    font-size:1.2em;
+}
+.postHeaderDate {
+    float:right;
 }
