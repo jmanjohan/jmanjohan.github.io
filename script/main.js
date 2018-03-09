@@ -4,5 +4,5 @@ $('.homeProfile').on('mouseleave mouseup', function() {
 });
 $('.homeProfile').mousedown(function() {
     $(this).removeClass('withBoxShadow');
-    $(this).prepend('<div class="click"></div>');
+    $(this).prepend('<div class="click withBorderRound"></div>');
 });
