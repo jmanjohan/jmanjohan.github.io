@@ -6,15 +6,26 @@ body {
     background-image: url(../images/hixs_pattern_evolution.png);
     font-family: 'Arvo', serif;
 }
-#homeRunner {
+#siteRunner {
     text-align:center;
     background-color:slateblue;
 }
-#homeRunner h1 {
+#siteRunner h1 {
     font-size: 3em;
     font-weight: bold;
 }
-.homeRunnerBlock {
+.siteRunnerButton {
+    position:relative;
+    background-color:dimgrey;
+    padding:10px;
+    vertical-align:bottom;
+    margin:2px;
+}
+.canClick:hover {
+    cursor:pointer;
+    color:mediumspringgreen;
+}
+.siteRunnerBlock {
     display:inline-block;
 }
 .withBorderRound {
@@ -26,7 +37,7 @@ body {
 .withBoxShadow {
     box-shadow:0 0 20px black;
 }
-.click{
+.clickShadow{
     position:absolute;
     top:0;
     left:0;
@@ -56,10 +67,6 @@ body {
     font-size:2em;
     font-weight:bold;
 }
-.homeProfile:hover {
-    cursor:pointer;
-    color:mediumspringgreen;
-}
 .homeProfilePicture {
     height:200px;
     width:200px;
@@ -83,10 +90,12 @@ body {
 }
 .postHeaderTitle {
     font-size: 1.5em;
+    color:mediumspringgreen;
 }
 .postHeaderSub {
     display:inline-block;
     font-size:1.2em;
+    color:mediumturquoise;
 }
 .postHeaderDate {
     float:right;
